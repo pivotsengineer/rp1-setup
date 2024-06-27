@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div style="text-align: center; padding-top: 6rem;">
+        <img id="stream" src="https://www.richardhughesjones.com/wp-content/uploads/2019/01/dice-gif.gif" alt="Stream">
+    </div>
+    <div style="text-align: center;">
+        <h3 id="dice" style="opacity: 0.8; font-size: 5rem; "></h3>
+    </div>
+
+<script>
+var socket = new WebSocket('ws://192.168.0.27/ws');
+
+socket.onmessage = function(event) {
+    if (typeof event.data === "string") {
+        // Handle JSON text message
+        var data = JSON.parse(event.data);
+        console.log('json: ', data);
+        
+        var diceEl = document.getElementById('dice');
+        let diceNumber = 0;
+        let diceNumbers = [];
+        for(let i = 0; i<=data.bounding_boxes_count-1; i++) {
+            // console.log(data.bounding_boxes[i].label);
+            switch(data.bounding_boxes[i].label) {
+                case 'dice 1':
+                    diceNumber = 1;
+                    break;
+                case 'dice 2':
+                    diceNumber = 2;
+                    break;
+                case 'dice 3':
+                    diceNumber = 3;
+                    break;
+                case 'dice 4':
+                    diceNumber = 4;
+                    break;
+                case 'dice 5':
+                    diceNumber = 5;
+                    break;
+                case 'dice 6':
+                    diceNumber = 6;
+                    break;
+                default:
+                    diceNumber = 0;
+                    break;
+                }
+                if(diceNumber > 0) {
+                    diceNumbers.push(diceNumber);
+                }
+        }
+        if(diceNumbers.length > 0) {
+            diceEl.innerHTML = diceNumbers.join(' / ');
+        } else {
+            diceEl.innerHTML = diceNumber;
+        }
+
+        
+
+        // diceEl.append(data.bounding_boxes[0].label || 'No object');
+        // diceEl.append(document.createElement("br"));
+
+    } else {
+        // Handle binary message (video frame)
+        var image = document.getElementById('stream');
+        var url = URL.createObjectURL(event.data);
+        image.src = url;
+    }
+};
+
+socket.onopen = function(event) {
+    console.log("WebSocket is open now.");
+};
+
+socket.onerror = function(error) {
+    console.log("WebSocket error:", error);
+};
+</script>
+</body>
+</html>
+

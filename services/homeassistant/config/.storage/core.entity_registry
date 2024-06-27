@@ -1,0 +1,1486 @@
+{
+  "version": 1,
+  "minor_version": 13,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3f1082260cd0208a47cbf7b859ffe68e",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ae87db98f5fb0f836c3e3f0ddac0341a",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "55fa21c3a784cd64d8710945f1168c2d",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dbe49aa4d93980b2f96439bf21aef1ec",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "58a44efad9ebdd86241b1de8bb5200e8",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "459640ab6c5efaad4da922f2f034f231",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "95d44f000929d1a9aca127e0f402f0b4",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "167c0b6e1bfe9d937d7b2f5da8024927",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "70df42c171563039ef3b6873c2880e18",
+        "device_class": null,
+        "device_id": "d67b751f402e67d9e1c7d8f65800261b",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d6f2daa5174fba96c8fc21f16a3e9a67",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "70df42c171563039ef3b6873c2880e18-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.sergei",
+        "hidden_by": null,
+        "icon": null,
+        "id": "46a59e71c5fa89a2fda16b33d1fe1409",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Sergei",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "sergei",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "91ae772c7889abc1376c27ee9064b3cf",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cd277d4f41c2ecf6dddb3143757cc6de",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "91ae772c7889abc1376c27ee9064b3cf",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e5ae38d98e013e155e233f1a9e67d80",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "todo.shopping_list",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3fa3c1f708f61e6eef35b9cf542f7656",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cart",
+        "original_name": "Shopping List",
+        "platform": "shopping_list",
+        "supported_features": 15,
+        "translation_key": "shopping_list",
+        "unique_id": "5e5ae38d98e013e155e233f1a9e67d80",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.iphone_4",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b599df81e4d1a6424138b3b9b2ee3f92",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "iPhone (4)",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "3A190C33-9349-4764-A561-102396889579",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_distance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "85856d12e6e1470c9b7cec1c5f1fe4db",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:hiking",
+        "original_name": "iPhone (4) Distance",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_pedometer_distance",
+        "previous_unique_id": null,
+        "unit_of_measurement": "m"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_activity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4840d31698c16c7712e07de043c55080",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:help-circle",
+        "original_name": "iPhone (4) Activity",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_activity",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_floors_ascended",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1f1ef42ee6f88b4711677a39fca29fa0",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:stairs-up",
+        "original_name": "iPhone (4) Floors Ascended",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_pedometer_floors_ascended",
+        "previous_unique_id": null,
+        "unit_of_measurement": "floors"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_battery_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "572063c5a6376425be19b00300d4b174",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": "mdi:battery-20",
+        "original_name": "iPhone (4) Battery Level",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_battery_level",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_battery_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3ca07901e6f8131f584344132f50b561",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery-20",
+        "original_name": "iPhone (4) Battery State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_battery_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_storage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dca3f27f6ec7e46ca174f24022c0835e",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:database",
+        "original_name": "iPhone (4) Storage",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_storage",
+        "previous_unique_id": null,
+        "unit_of_measurement": "% available"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_ssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0e93596bedcbf9be3bba9007b0b84dfa",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "iPhone (4) SSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_connectivity_ssid",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_bssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "435d22a29bff998b0ed8a279c38d5a90",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-star",
+        "original_name": "iPhone (4) BSSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_connectivity_bssid",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_connection_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2e5079d6a8b329daac5b93957a6baa88",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "iPhone (4) Connection Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_connectivity_connection_type",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_sim_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "da46d02ae529c4326e21fee9d94c4fde",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone (4) SIM 1",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_connectivity_sim_1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_sim_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b9450f4a2e014f85abb13ce35ffe7bc2",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone (4) SIM 2",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_connectivity_sim_2",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_geocoded_location",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ecd11cdf7297de29034dad39c60095d0",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map",
+        "original_name": "iPhone (4) Geocoded Location",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_geocoded_location",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.iphone_4_focus",
+        "hidden_by": null,
+        "icon": null,
+        "id": "97c1baf46c67fe8226ac622a3662d8f7",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:moon-waning-crescent",
+        "original_name": "iPhone (4) Focus",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_focus",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_last_update_trigger",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d3cab6ed7a0913aed1c705c0f1cb0c08",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-wireless",
+        "original_name": "iPhone (4) Last Update Trigger",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_last_update_trigger",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_steps",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e3de11a6fa08feb6cb3f015d17ff5f2d",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:walk",
+        "original_name": "iPhone (4) Steps",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_pedometer_steps",
+        "previous_unique_id": null,
+        "unit_of_measurement": "steps"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_floors_descended",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7cd421b64c2f53f334c2f0c6d0148bb8",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:stairs-down",
+        "original_name": "iPhone (4) Floors Descended",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_pedometer_floors_descended",
+        "previous_unique_id": null,
+        "unit_of_measurement": "floors"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "device_class": null,
+        "device_id": "debfeda16b049c2cd861244053725f9c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_4_average_active_pace",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f40211b0e335952a9879e592f98b3e3c",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:speedometer",
+        "original_name": "iPhone (4) Average Active Pace",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1_pedometer_avg_active_pace",
+        "previous_unique_id": null,
+        "unit_of_measurement": "m/s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f069a30008ebf9e0ffe548060e8e5862",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.rpi_power_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7290e5732907c042dec3c6410cb45022",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "problem",
+        "original_icon": "mdi:raspberry-pi",
+        "original_name": "RPi Power status",
+        "platform": "rpi_power",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "rpi_power",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "2067c1cdaf66cf5a9e517876975d7070",
+        "device_class": null,
+        "device_id": "1823872cbeaea993ea86baae6993d8b5",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "camera.esp32s3_camera",
+        "hidden_by": null,
+        "icon": null,
+        "id": "78b8c3a090f550613ec6fe295eb8f1b4",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "ESP32S3 Camera",
+        "platform": "mjpeg",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "2067c1cdaf66cf5a9e517876975d7070",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "42d4c18aaad2cc0a7fec3837c28f727e",
+        "device_class": null,
+        "device_id": "3b52cda7c47f0fe063ab6c6c79ff6466",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.hp_laser_mfp_137fnw_uptime",
+        "hidden_by": null,
+        "icon": null,
+        "id": "18ef0cfc8a5d95dad1386c92bf255143",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": "mdi:clock-outline",
+        "original_name": "Uptime",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": "uptime",
+        "unique_id": "16a65700-007c-1000-bb49-7c4d8f7219b5_uptime",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "42d4c18aaad2cc0a7fec3837c28f727e",
+        "device_class": null,
+        "device_id": "3b52cda7c47f0fe063ab6c6c79ff6466",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.hp_laser_mfp_137fnw_black_toner_s_n_crum_210927aa9ce",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1f9a511a3db3b5f5b75806f1bed19cc8",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water",
+        "original_name": "Black Toner_S/N_:CRUM-210927AA8C7",
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "16a65700-007c-1000-bb49-7c4d8f7219b5_marker_0",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "idle",
+            "printing",
+            "stopped"
+          ]
+        },
+        "config_entry_id": "42d4c18aaad2cc0a7fec3837c28f727e",
+        "device_class": null,
+        "device_id": "3b52cda7c47f0fe063ab6c6c79ff6466",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.hp_laser_mfp_137fnw",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d02150673f75fe21ada5bc07de21ece4",
+        "has_entity_name": true,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "enum",
+        "original_icon": "mdi:printer",
+        "original_name": null,
+        "platform": "ipp",
+        "supported_features": 0,
+        "translation_key": "printer",
+        "unique_id": "16a65700-007c-1000-bb49-7c4d8f7219b5_printer",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "34f6c4881388ffb712463304dde9da1a",
+        "device_class": null,
+        "device_id": "ead7e1ee0378a3b55670dd33c6869fc0",
+        "disabled_by": "config_entry",
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": "mdi:balcony",
+        "id": "1333bf96230abc465faa629f68fbde4b",
+        "has_entity_name": true,
+        "labels": [],
+        "name": "Wether outside",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          },
+          "weather": {
+            "precipitation_unit": "mm",
+            "pressure_unit": "hPa",
+            "temperature_unit": "°C",
+            "visibility_unit": "km",
+            "wind_speed_unit": "km/h"
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home Temp Sensor",
+        "platform": "met",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "44.680242050000004-20.381755966161457",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.serges_iphone_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c41c65534f7a3a6e9cb73811dbb18bd9",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Serge’s iphone (2)",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "5371A57F-2774-46C5-9C89-BFB93CC19111",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_battery_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "38dfc9a62cb87f5dc45ef3b73d2dac3c",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery-80",
+        "original_name": "Serge’s iphone (2) Battery State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_battery_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_storage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2f191eadf0104698e1134462933d412c",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:database",
+        "original_name": "Serge’s iphone (2) Storage",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_storage",
+        "previous_unique_id": null,
+        "unit_of_measurement": "% available"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_ssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "44ee495d44d06d12b475e10119b8b9ef",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-off",
+        "original_name": "Serge’s iphone (2) SSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_connectivity_ssid",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_battery_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "73da3dc22cffdd60e1e2f0e03325064c",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": "mdi:battery-80",
+        "original_name": "Serge’s iphone (2) Battery Level",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_battery_level",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_bssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7751d2aa90ab6e3e2dc081be10a737c5",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-off",
+        "original_name": "Serge’s iphone (2) BSSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_connectivity_bssid",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_connection_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7aff52ce9b5081348c5ffcd38ab882a4",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "Serge’s iphone (2) Connection Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_connectivity_connection_type",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_geocoded_location",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f233eb9b2a04dabeb4c1beae8b7add9c",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map",
+        "original_name": "Serge’s iphone (2) Geocoded Location",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_geocoded_location",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_last_update_trigger",
+        "hidden_by": null,
+        "icon": null,
+        "id": "53762e6a9c8df4014170a095e3c7744b",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-wireless",
+        "original_name": "Serge’s iphone (2) Last Update Trigger",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_last_update_trigger",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.serges_iphone_2_activity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1c37c63f8d055239be6254aadefd9c6b",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:help-circle",
+        "original_name": "Serge’s iphone (2) Activity",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_activity",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "device_class": null,
+        "device_id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.serges_iphone_2_focus",
+        "hidden_by": null,
+        "icon": null,
+        "id": "76ccbe9a615c60f7a93499f5c335e9de",
+        "has_entity_name": false,
+        "labels": [],
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:moon-waning-crescent",
+        "original_name": "Serge’s iphone (2) Focus",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004_focus",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": []
+  }
+}

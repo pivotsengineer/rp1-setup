@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "70df42c171563039ef3b6873c2880e18",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "12453ef796bf255d5b5666494f997823",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "D8:3A:DD:F5:4F:86",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "D8:3A:DD:F5:4F:86",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5e5ae38d98e013e155e233f1a9e67d80",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "91ae772c7889abc1376c27ee9064b3cf",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30a74542cfdd85502b72d0d152262592",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5bea5a161d8a890eb611eb1e77727d99",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone (4)",
+        "data": {
+          "model": "iPhone16,1",
+          "device_id": "3A190C33-9349-4764-A561-102396889579",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_version": "2024.4 (2024.624)",
+          "manufacturer": "Apple",
+          "app_name": "Home Assistant",
+          "os_version": "17.5",
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "app_data": {
+            "push_token": "fJE6RoH74UYhqxC4FbSFZo:APA91bFtGmTeyIok4zcg46DwmIjjUcTT4sTC_kWzqnHlTx5xE3KlZdolA7YEbjKWD1Pb7uaokm_xAwWTRfBC7FdML_Wwa7LvFaqntO5cCXo18bNyQL0JEGkMBdRU5s7UGHpjNNkwtK8m",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "device_name": "iPhone (4)",
+          "webhook_id": "90d5c1aaf157e1ad86fd6ce867f8a96b328ac41feaf8cd4db6b6e48e78f36af1",
+          "secret": "3b944a1daac97bb0976f93c4e1463e64a154ced7acfda678dc5cfe6034acbef1",
+          "user_id": "347b58dd5f3341d59638cf31d43108fb",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-3A190C33-9349-4764-A561-102396889579",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f069a30008ebf9e0ffe548060e8e5862",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "rpi_power",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2067c1cdaf66cf5a9e517876975d7070",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mjpeg",
+        "title": "ESP32S3 Camera",
+        "data": {},
+        "options": {
+          "authentication": "basic",
+          "mjpeg_url": "http://ssergienko:vjhrjdRf123@192.168.0.11",
+          "password": "vjhrjdRf123",
+          "still_image_url": null,
+          "username": "ssergienko",
+          "verify_ssl": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "42d4c18aaad2cc0a7fec3837c28f727e",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "HP Laser MFP 137fnw (72:19:B5)",
+        "data": {
+          "host": "192.168.0.151",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "HP Laser MFP 137fnw (72:19:B5)",
+          "uuid": "16a65700-007c-1000-bb49-7c4d8f7219b5"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "16a65700-007c-1000-bb49-7c4d8f7219b5",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cf23bd46c125b1b4b5f609a44396196e",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "TCH-DMS:12",
+        "data": {
+          "url": "http://192.168.0.12:2468/7e895f44-1dd2-11b2-9487-f71ff2df7ccc",
+          "device_id": "uuid:7e895f44-1dd2-11b2-9487-f71ff2df7ccc::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "tch_dms_12"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:7e895f44-1dd2-11b2-9487-f71ff2df7ccc::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "34f6c4881388ffb712463304dde9da1a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "name": "Home Temp Sensor",
+          "latitude": 44.680242050000004,
+          "longitude": 20.381755966161457,
+          "elevation": 0.0
+        },
+        "options": {
+          "name": "Home Temp Sensor",
+          "latitude": 44.680242050000004,
+          "longitude": 20.381755966161457,
+          "elevation": 0.0
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "69f649c13f419fe1890dc363e9da5396",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mobile_app",
+        "title": "Serge’s iphone (2)",
+        "data": {
+          "supports_encryption": true,
+          "app_version": "2024.5 (2024.678)",
+          "model": "iPad7,5",
+          "device_name": "Serge’s iphone (2)",
+          "app_name": "Home Assistant",
+          "os_name": "iPadOS",
+          "os_version": "17.4.1",
+          "device_id": "5371A57F-2774-46C5-9C89-BFB93CC19111",
+          "manufacturer": "Apple",
+          "app_data": {
+            "push_token": "czmibXZ85UpfpfHlGBFeAH:APA91bFvuAuL3-aqdH7I-LhqBw0zTME7vFTfX7VlDn4HQE0MoKM89yuOTpdaBRjXdBmjwAcusUMq90YFkr6HSM2T4cbnEBdvRU87SV2ZNjGtW1D_y85ZH8Qt6lN1LutYfh9nVaRKlicX",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_id": "io.robbie.HomeAssistant",
+          "webhook_id": "c29e45f7ea16d14a3b3529a047b1b0102f57ca284ed18b43dfee99ebe2fdd004",
+          "secret": "79699047b98e16b0c37dee35e57c7d790c2ffde98a45c6865ae89c74a3c12a05",
+          "user_id": "347b58dd5f3341d59638cf31d43108fb",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-5371A57F-2774-46C5-9C89-BFB93CC19111",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a27edf07a1acb1b78c17a76b4f7a5458",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "TCH-DMS:12",
+        "data": {
+          "url": "http://192.168.0.12:2468/57902374-1dd2-11b2-a56d-103bbb6b5a62",
+          "device_id": "uuid:57902374-1dd2-11b2-a56d-103bbb6b5a62::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "tch_dms_12_1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:57902374-1dd2-11b2-a56d-103bbb6b5a62::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f6ecb55bc95ce44c7153d13fcd68c0e8",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "tuya",
+        "title": "tuya",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

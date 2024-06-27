@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "70df42c171563039ef3b6873c2880e18"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d67b751f402e67d9e1c7d8f65800261b",
+        "identifiers": [
+          [
+            "sun",
+            "70df42c171563039ef3b6873c2880e18"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5bea5a161d8a890eb611eb1e77727d99"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "debfeda16b049c2cd861244053725f9c",
+        "identifiers": [
+          [
+            "mobile_app",
+            "3A190C33-9349-4764-A561-102396889579"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Apple",
+        "model": "iPhone16,1",
+        "name_by_user": null,
+        "name": "iPhone (4)",
+        "serial_number": null,
+        "sw_version": "17.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "2067c1cdaf66cf5a9e517876975d7070"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1823872cbeaea993ea86baae6993d8b5",
+        "identifiers": [
+          [
+            "mjpeg",
+            "2067c1cdaf66cf5a9e517876975d7070"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "ESP32S3 Camera",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "42d4c18aaad2cc0a7fec3837c28f727e"
+        ],
+        "configuration_url": "http://192.168.0.151:631/sws/index.html?link=/sws/app/settings/network/AirPrint/AirPrint.html",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3b52cda7c47f0fe063ab6c6c79ff6466",
+        "identifiers": [
+          [
+            "ipp",
+            "16a65700-007c-1000-bb49-7c4d8f7219b5"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "HP",
+        "model": "HP Laser MFP 131 133 135-138",
+        "name_by_user": null,
+        "name": "HP Laser MFP 137fnw",
+        "serial_number": null,
+        "sw_version": [
+          "V3.82.01.17",
+          "1.0,1.1,2.0",
+          "1.5"
+        ],
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "34f6c4881388ffb712463304dde9da1a"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": "config_entry",
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ead7e1ee0378a3b55670dd33c6869fc0",
+        "identifiers": [
+          [
+            "met",
+            "34f6c4881388ffb712463304dde9da1a"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": "Sensor",
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "69f649c13f419fe1890dc363e9da5396"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ea2bbcfe3d15c7068bd887e26746c418",
+        "identifiers": [
+          [
+            "mobile_app",
+            "5371A57F-2774-46C5-9C89-BFB93CC19111"
+          ]
+        ],
+        "labels": [],
+        "manufacturer": "Apple",
+        "model": "iPad7,5",
+        "name_by_user": null,
+        "name": "Serge’s iphone (2)",
+        "serial_number": null,
+        "sw_version": "17.4.1",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

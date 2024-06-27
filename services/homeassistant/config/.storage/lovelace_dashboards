@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "temperature_sensor_1",
+        "show_in_sidebar": true,
+        "icon": "mdi:sun-snowflake",
+        "title": "Temperature Sensor 1",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "temperature-sensor-1"
+      }
+    ]
+  }
+}

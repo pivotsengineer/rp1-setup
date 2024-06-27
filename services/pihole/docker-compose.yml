@@ -1,0 +1,53 @@
+version: "3"
+
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    networks:
+      pihole_network:
+        ipv4_address: 192.168.0.123 # Assign a static IP to your service
+    dns:
+      - "127.0.0.1"
+      - "1.1.1.1"
+    # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp" # Only required if you are using Pi-hole as your DHCP server
+      - "80:80/tcp"
+    environment:
+      ServerIP: 192.168.0.123
+      TZ: 'Europe/Belgrade'
+      WEBPASSWORD: 'sGWLM.@G38.pa77'
+    # Volumes store your data between container upgrades
+    volumes:
+      - '/opt/setup/services/pihole/etc-pihole:/etc/pihole'
+      - '/opt/setup/services/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
+    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    #cap_add:
+    #  - NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
+    restart: unless-stopped
+
+      #homeassistant:
+      #container_name: homeassistant
+      #image: "ghcr.io/home-assistant/home-assistant:stable"
+      #volumes:
+      #- '/opt/setup/services/homeassistant/config:/config'
+      #- '/etc/localtime:/etc/localtime:ro'
+      #networks:
+      #pihole_network:
+      #  ipv4_address: 192.168.0.124 # Assign a static IP to your service
+      #restart: unless-stopped
+
+# Networks
+networks:
+  pihole_network:
+    driver: macvlan
+    driver_opts:
+      parent: eth0 # The name of your host's network interface
+    ipam:
+      config:
+        - subnet: 192.168.0.0/24 # Your network's subnet
+          gateway: 192.168.0.1 # Your network's gateway
