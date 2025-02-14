@@ -1,0 +1,3 @@
+[submodule "displays/rpi-rgb-led-matrix"]
+	path = displays/rpi-rgb-led-matrix
+	url = https://github.com/pivotsengineer/aibox.git

@@ -6,22 +6,22 @@
     {
       "state": {"entity_id":"person.sergei","state":"not_home","attributes":{"editable":true,"id":"sergei","device_trackers":["device_tracker.iphone_4","device_tracker.serges_iphone_2"],"latitude":44.802642822265625,"longitude":20.47651640358107,"gps_accuracy":14.89625725093679,"source":"device_tracker.iphone_4","user_id":"347b58dd5f3341d59638cf31d43108fb","friendly_name":"Sergei"},"last_changed":"2025-02-14T16:21:48.178611+00:00","last_reported":"2025-02-14T16:21:49.637362+00:00","last_updated":"2025-02-14T16:21:49.637362+00:00","context":{"id":"01JM2M8BY5QJA6M9HRSRHM7S5N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant"},"last_changed":"2025-02-14T16:21:49.081938+00:00","last_reported":"2025-02-14T16:21:49.081938+00:00","last_updated":"2025-02-14T16:21:49.081938+00:00","context":{"id":"01JM2M8BCSZ8TS7MNAHAEYNHTZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"binary_sensor.iphone_4_focus","state":"on","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone (4) Focus"},"last_changed":"2025-02-14T16:21:49.605430+00:00","last_reported":"2025-02-14T16:21:49.605430+00:00","last_updated":"2025-02-14T16:21:49.605430+00:00","context":{"id":"01JM2M8BX586ECWST8KYMJKHTD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"device_tracker.iphone_4","state":"not_home","attributes":{"source_type":"gps","battery_level":30,"latitude":44.802642822265625,"longitude":20.47651640358107,"gps_accuracy":14.89625725093679,"altitude":144.6743572568521,"course":172.51172773690897,"speed":0,"vertical_accuracy":9.08418148261097,"friendly_name":"iPhone (4)"},"last_changed":"2025-02-14T16:21:49.606490+00:00","last_reported":"2025-02-14T16:21:49.606490+00:00","last_updated":"2025-02-14T16:21:49.606490+00:00","context":{"id":"01JM2M8BX6MFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_distance","state":"1247","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone (4) Distance"},"last_changed":"2025-02-14T16:21:49.607188+00:00","last_reported":"2025-02-14T16:21:49.607188+00:00","last_updated":"2025-02-14T16:21:49.607188+00:00","context":{"id":"01JM2M8BX7E2KKRRK2Q78AJ4WK","parent_id":null,"user_id":null}},
@@ -29,7 +29,7 @@
         "native_value": 1247,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"iPhone (4) Activity"},"last_changed":"2025-02-14T16:21:49.607375+00:00","last_reported":"2025-02-14T16:21:49.607375+00:00","last_updated":"2025-02-14T16:21:49.607375+00:00","context":{"id":"01JM2M8BX7MJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
@@ -37,7 +37,7 @@
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_floors_ascended","state":"8","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone (4) Floors Ascended"},"last_changed":"2025-02-14T16:21:49.607524+00:00","last_reported":"2025-02-14T16:21:49.607524+00:00","last_updated":"2025-02-14T16:21:49.607524+00:00","context":{"id":"01JM2M8BX7RRNRZWNH189GDHBT","parent_id":null,"user_id":null}},
@@ -45,7 +45,7 @@
         "native_value": 8,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_battery_level","state":"65","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-60","friendly_name":"iPhone (4) Battery Level"},"last_changed":"2025-02-14T16:21:49.607683+00:00","last_reported":"2025-02-14T16:21:49.607683+00:00","last_updated":"2025-02-14T16:21:49.607683+00:00","context":{"id":"01JM2M8BX720DA0PE9VCFJRE14","parent_id":null,"user_id":null}},
@@ -53,7 +53,7 @@
         "native_value": 65,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-60","friendly_name":"iPhone (4) Battery State"},"last_changed":"2025-02-14T16:21:49.607834+00:00","last_reported":"2025-02-14T16:21:49.607834+00:00","last_updated":"2025-02-14T16:21:49.607834+00:00","context":{"id":"01JM2M8BX739K2M79B787Y0G1A","parent_id":null,"user_id":null}},
@@ -61,7 +61,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_storage","state":"67.16","attributes":{"Available":"111,09 GB","Available (Important)":"181,96 GB","Available (Opportunistic)":"171,84 GB","Total":"255,87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone (4) Storage"},"last_changed":"2025-02-14T16:21:49.607974+00:00","last_reported":"2025-02-14T16:21:49.607974+00:00","last_updated":"2025-02-14T16:21:49.607974+00:00","context":{"id":"01JM2M8BX7YCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
@@ -69,7 +69,7 @@
         "native_value": "67.16",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_ssid","state":"Network-EBB1EFA8","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone (4) SSID"},"last_changed":"2025-02-14T16:21:49.608110+00:00","last_reported":"2025-02-14T16:21:49.608110+00:00","last_updated":"2025-02-14T16:21:49.608110+00:00","context":{"id":"01JM2M8BX8SRYBCWK0MAWWWWW5","parent_id":null,"user_id":null}},
@@ -77,7 +77,7 @@
         "native_value": "Network-EBB1EFA8",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_bssid","state":"30:de:4b:33:ef:a8","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone (4) BSSID"},"last_changed":"2025-02-14T16:21:49.608239+00:00","last_reported":"2025-02-14T16:21:49.608239+00:00","last_updated":"2025-02-14T16:21:49.608239+00:00","context":{"id":"01JM2M8BX8TRFVKB5TWZR050SG","parent_id":null,"user_id":null}},
@@ -85,7 +85,7 @@
         "native_value": "30:de:4b:33:ef:a8",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone (4) Connection Type"},"last_changed":"2025-02-14T16:21:49.608481+00:00","last_reported":"2025-02-14T16:21:49.608481+00:00","last_updated":"2025-02-14T16:21:49.608481+00:00","context":{"id":"01JM2M8BX8GW129NV7WY8MMG1E","parent_id":null,"user_id":null}},
@@ -93,7 +93,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone (4) SIM 1"},"last_changed":"2025-02-14T16:21:49.608617+00:00","last_reported":"2025-02-14T16:21:49.608617+00:00","last_updated":"2025-02-14T16:21:49.608617+00:00","context":{"id":"01JM2M8BX8W34BP3R20RJ09CVZ","parent_id":null,"user_id":null}},
@@ -101,7 +101,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone (4) SIM 2"},"last_changed":"2025-02-14T16:21:49.608829+00:00","last_reported":"2025-02-14T16:21:49.608829+00:00","last_updated":"2025-02-14T16:21:49.608829+00:00","context":{"id":"01JM2M8BX843FF1R6FX0QEE4Z6","parent_id":null,"user_id":null}},
@@ -109,7 +109,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_geocoded_location","state":"Golsvordijeva 16А\n11111 Belgrade\nSerbia","attributes":{"Administrative Area":"Centralna Srbija","Areas Of Interest":"N/A","Country":"Serbia","Inland Water":"N/A","ISO Country Code":"RS","Locality":"Belgrade","Location":[44.802581787109375,20.47654533888044],"Name":"Golsvordijeva 16А","Ocean":"N/A","Postal Code":"11111","Sub Administrative Area":"Belgrade","Sub Locality":"Vračar","Sub Thoroughfare":"16А","Thoroughfare":"Golsvordijeva","Time Zone":"Europe/Belgrade","Zones":[],"icon":"mdi:map","friendly_name":"iPhone (4) Geocoded Location"},"last_changed":"2025-02-14T16:21:49.608977+00:00","last_reported":"2025-02-14T16:21:49.608977+00:00","last_updated":"2025-02-14T16:21:49.608977+00:00","context":{"id":"01JM2M8BX87BK003CH3AYYVXCB","parent_id":null,"user_id":null}},
@@ -117,7 +117,7 @@
         "native_value": "Golsvordijeva 16А\n11111 Belgrade\nSerbia",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone (4) Last Update Trigger"},"last_changed":"2025-02-14T16:21:49.609107+00:00","last_reported":"2025-02-14T16:21:49.609107+00:00","last_updated":"2025-02-14T16:21:49.609107+00:00","context":{"id":"01JM2M8BX9M9Y3SRQTFJ5CVK6H","parent_id":null,"user_id":null}},
@@ -125,7 +125,7 @@
         "native_value": "Signaled",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_steps","state":"1820","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone (4) Steps"},"last_changed":"2025-02-14T16:21:49.609254+00:00","last_reported":"2025-02-14T16:21:49.609254+00:00","last_updated":"2025-02-14T16:21:49.609254+00:00","context":{"id":"01JM2M8BX9S5B586JJ7VFH10SX","parent_id":null,"user_id":null}},
@@ -133,7 +133,7 @@
         "native_value": 1820,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_floors_descended","state":"11","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone (4) Floors Descended"},"last_changed":"2025-02-14T16:21:49.609378+00:00","last_reported":"2025-02-14T16:21:49.609378+00:00","last_updated":"2025-02-14T16:21:49.609378+00:00","context":{"id":"01JM2M8BX9FTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
@@ -141,7 +141,7 @@
         "native_value": 11,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_4_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone (4) Average Active Pace"},"last_changed":"2025-02-14T16:21:49.609501+00:00","last_reported":"2025-02-14T16:21:49.609501+00:00","last_updated":"2025-02-14T16:21:49.609501+00:00","context":{"id":"01JM2M8BX9RKJ9T2KV1JNER5KQ","parent_id":null,"user_id":null}},
@@ -149,17 +149,17 @@
         "native_value": 1,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"binary_sensor.serges_iphone_2_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Serge’s iphone (2) Focus"},"last_changed":"2025-02-14T16:21:49.609986+00:00","last_reported":"2025-02-14T16:21:49.609986+00:00","last_updated":"2025-02-14T16:21:49.609986+00:00","context":{"id":"01JM2M8BX9K3WCDRZQADJVMDRH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"device_tracker.serges_iphone_2","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Serge’s iphone (2)"},"last_changed":"2025-02-14T16:21:49.610269+00:00","last_reported":"2025-02-14T16:21:49.610269+00:00","last_updated":"2025-02-14T16:21:49.610269+00:00","context":{"id":"01JM2M8BXA8DTYRM3NJ9RA8MWG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-40","friendly_name":"Serge’s iphone (2) Battery State"},"last_changed":"2025-02-14T16:21:49.610655+00:00","last_reported":"2025-02-14T16:21:49.610655+00:00","last_updated":"2025-02-14T16:21:49.610655+00:00","context":{"id":"01JM2M8BXA4834FD6F7MYG56BG","parent_id":null,"user_id":null}},
@@ -167,7 +167,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_storage","state":"72.21","attributes":{"Available":"86,06 GB","Available (Important)":"94,29 GB","Available (Opportunistic)":"92,42 GB","Total":"127,99 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Serge’s iphone (2) Storage"},"last_changed":"2025-02-14T16:21:49.610799+00:00","last_reported":"2025-02-14T16:21:49.610799+00:00","last_updated":"2025-02-14T16:21:49.610799+00:00","context":{"id":"01JM2M8BXAJC17N1C0FW2738EX","parent_id":null,"user_id":null}},
@@ -175,7 +175,7 @@
         "native_value": "72.21",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Serge’s iphone (2) SSID"},"last_changed":"2025-02-14T16:21:49.610926+00:00","last_reported":"2025-02-14T16:21:49.610926+00:00","last_updated":"2025-02-14T16:21:49.610926+00:00","context":{"id":"01JM2M8BXAF25ESYKV9K0EFXXG","parent_id":null,"user_id":null}},
@@ -183,7 +183,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_battery_level","state":"45","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-40","friendly_name":"Serge’s iphone (2) Battery Level"},"last_changed":"2025-02-14T16:21:49.611060+00:00","last_reported":"2025-02-14T16:21:49.611060+00:00","last_updated":"2025-02-14T16:21:49.611060+00:00","context":{"id":"01JM2M8BXBBNXC3KSBH487VZ35","parent_id":null,"user_id":null}},
@@ -191,7 +191,7 @@
         "native_value": 45,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Serge’s iphone (2) BSSID"},"last_changed":"2025-02-14T16:21:49.611196+00:00","last_reported":"2025-02-14T16:21:49.611196+00:00","last_updated":"2025-02-14T16:21:49.611196+00:00","context":{"id":"01JM2M8BXBGWYEMND056P3VYKB","parent_id":null,"user_id":null}},
@@ -199,7 +199,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Serge’s iphone (2) Connection Type"},"last_changed":"2025-02-14T16:21:49.611320+00:00","last_reported":"2025-02-14T16:21:49.611320+00:00","last_updated":"2025-02-14T16:21:49.611320+00:00","context":{"id":"01JM2M8BXB693ASD0ZR45W0RKK","parent_id":null,"user_id":null}},
@@ -207,7 +207,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Serge’s iphone (2) Geocoded Location"},"last_changed":"2025-02-14T16:21:49.611437+00:00","last_reported":"2025-02-14T16:21:49.611437+00:00","last_updated":"2025-02-14T16:21:49.611437+00:00","context":{"id":"01JM2M8BXBH5DV00BCG21EE0V8","parent_id":null,"user_id":null}},
@@ -215,7 +215,7 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Serge’s iphone (2) Last Update Trigger"},"last_changed":"2025-02-14T16:21:49.611559+00:00","last_reported":"2025-02-14T16:21:49.611559+00:00","last_updated":"2025-02-14T16:21:49.611559+00:00","context":{"id":"01JM2M8BXBPAHW2THWYBHM1X8F","parent_id":null,"user_id":null}},
@@ -223,7 +223,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"sensor.serges_iphone_2_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Serge’s iphone (2) Activity"},"last_changed":"2025-02-14T16:21:49.611676+00:00","last_reported":"2025-02-14T16:21:49.611676+00:00","last_updated":"2025-02-14T16:21:49.611676+00:00","context":{"id":"01JM2M8BXBFX660MFJMD2S93WV","parent_id":null,"user_id":null}},
@@ -231,12 +231,12 @@
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     },
     {
       "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2025-02-14T16:21:49.621355+00:00","last_reported":"2025-02-14T16:21:49.621355+00:00","last_updated":"2025-02-14T16:21:49.621355+00:00","context":{"id":"01JM2M8BXNN01XESP3SFVXM1KW","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-02-14T17:07:43.213813+00:00"
+      "last_seen": "2025-02-14T17:22:43.214138+00:00"
     }
   ]
 }
